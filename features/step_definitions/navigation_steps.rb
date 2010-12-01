@@ -22,4 +22,15 @@ When /^I follow 'about'$/ do
  visit about_path
 end
 
+Given /^I am not on the homepage$/ do
+  current_path != root_path
+end
+
+Then /^I should see the navigation$/ do
+  pending # express the regexp above with the code you wish you had
+end
+
+
+
+
 

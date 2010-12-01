@@ -18,5 +18,8 @@ Scenario Outline: navigate to pages
     | 'about'     | about_path     |
  
 
+  
+  
+  
 
 

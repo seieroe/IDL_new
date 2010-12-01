@@ -6,6 +6,8 @@ gem 'rails', '3.0.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'haml'
+gem "compass", ">= 0.10.6"
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -31,6 +33,7 @@ group :development, :test do
  gem 'database_cleaner'
  gem 'cucumber-rails'
  gem 'cucumber'
+ gem 'pickle'
  gem 'rspec-rails'
  gem 'spork'
  gem 'launchy'    # So you can do Then show me the page
